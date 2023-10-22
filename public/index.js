@@ -17,14 +17,14 @@ app.use(express.json())
 
 /* 
   Connect to mySQL database
-*/
-const db = mysql.createPool({
-  user: 'b56520f44e21c8',
-  host: 'us-cdbr-east-06.cleardb.net',
-  password: '9e408cc0',
-  database: 'heroku_5973ff8ebbd5109'
-})
 
+const db = mysql.createPool({
+  user: '',
+  host: '',
+  password: '',
+  database: ''
+})
+*/
 /* 
   Basic search get request to mySQL. Applies filters applied in HTTP request.
 */
