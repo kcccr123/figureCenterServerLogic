@@ -19,10 +19,10 @@ app.use(express.json())
   Connect to mySQL database
 */
 const db = mysql.createPool({
-  user: //not diplayed,
-  host: //not diplayed,
-  password: //not diplayed,
-  database: //not diplayed,
+  user: 'b56520f44e21c8',
+  host: 'us-cdbr-east-06.cleardb.net',
+  password: '9e408cc0',
+  database: 'heroku_5973ff8ebbd5109'
 })
 
 /* 
